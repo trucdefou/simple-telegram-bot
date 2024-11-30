@@ -10,16 +10,14 @@ GET_TEXT = 6
 
 def get_allowed_users():
     ALLOWED_USERS = []
-    ALLOWED_USERS.append(os.getenv('benja'))
-    ALLOWED_USERS.append(os.getenv('TEST_USER'))
-    ALLOWED_USERS.append(os.getenv('mz'))
-    ALLOWED_USERS.append(os.getenv('vm'))
-    ALLOWED_USERS.append(os.getenv('dmnunez'))
+    if os.environ.get('ALLOWED_USERS', None) is not None:
+        ALLOWED_USERS = os.environ['ALLOWED_USERS'].split(",")
     return ALLOWED_USERS
 def get_add_to_list():
     return ADD_TO_LIST
 
 def get_delete_from_list():
+    
     return DELETE_FROM_LIST
 
 def get_add_to_reminder():
