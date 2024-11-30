@@ -2,19 +2,14 @@
 # Telegram Bot for Lists and Reminders  
 
 ## **About The Project**  
-This bot helps you organize tasks and reminders directly within Telegram. It offers an easy-to-use interface with inline buttons for creating, viewing, and deleting reminders.  
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
+This bot helps you organize tasks and reminders directly within Telegram. It offers an easy-to-use interface with inline buttons for creating, viewing, and deleting reminders.   
 
 ---
 
 ### **Built With**  
 - **Python**: Core programming language.  
 - **python-telegram-bot**: Telegram API wrapper for bot functionality.  
-- **JSON**: Used for storing and retrieving reminder data.  
-- **Asyncio**: To handle asynchronous events efficiently.  
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
+- **JSON**: Used for storing and retrieving reminder data.   
 
 ---
 
@@ -28,7 +23,7 @@ Ensure you have Python 3.10 or later installed.
 
 1. Clone the repository:  
    ```sh  
-   git clone https://github.com/github_username/telegram-reminder-bot.git  
+   git clone https://github.com/trucdefou/telegram-reminder-bot.git  
    cd telegram-reminder-bot  
    ```  
 
@@ -53,9 +48,7 @@ Ensure you have Python 3.10 or later installed.
 5. Run the bot:  
    ```sh  
    python bot.py  
-   ```  
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
+   ``` 
 
 ---
 
@@ -65,24 +58,12 @@ Ensure you have Python 3.10 or later installed.
 - **Delete Reminder**: Select and remove tasks using inline buttons.  
 - **Cancel Actions**: Exit any action with a "Cancel" button.  
 
-_For detailed usage instructions, refer to the [Documentation](https://example.com)._  
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
-
----
-
-## **Roadmap**  
-- [ ] Add support for recurring reminders.  
-- [ ] Add multi-user support with database integration.  
-- [ ] Implement natural language processing for reminders.  
-- [ ] Push notification for reminders.  
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
+- **Add list**: Create tasks and add them to your reminder list.  
+- **View list**: See all your saved reminders in a list.  
+- **Delete list**: Select and remove tasks using inline buttons.  
+- **Cancel Actions**: Exit any action with a "Cancel" button.  
 
 ---
-
-## **Contributing**  
-Contributions are welcome!  
 
 1. Fork the repository.  
 2. Create a new branch:  
@@ -99,29 +80,23 @@ Contributions are welcome!
    ```  
 5. Open a pull request.  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
-
 ---
 
 ## **License**  
 Distributed under the MIT License. See `LICENSE` for more information.  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
 ---
 
 ## **Contact**  
 **Your Name**  
-[youremail@example.com](mailto:youremail@example.com)  
-[GitHub Profile](https://github.com/github_username)  
+[lucianorecalde92@gmail.com](mailto:lucianorecalde92@gmail.com)  
+[GitHub Profile](https://github.com/trucdefou)  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
 ---
 
 ## **Acknowledgments**  
 - [python-telegram-bot Documentation](https://python-telegram-bot.readthedocs.io/)  
-- [Telegram Bot API](https://core.telegram.org/bots/api)  
-- [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)  
+- [Telegram Bot API](https://core.telegram.org/bots/api)   
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
