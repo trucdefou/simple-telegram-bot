@@ -1,172 +1,127 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="www.araitek.com">
-    <img src="static/img/mobile.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Simple Telegram Bot for creating list and reminders</h3>
+# Telegram Bot for Lists and Reminders  
 
-  <p align="center">
-    Simple Telegram bot for use as template
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>No docs for the moment... »</strong></a>
-  </p>
-</div>
+## **About The Project**  
+This bot helps you organize tasks and reminders directly within Telegram. It offers an easy-to-use interface with inline buttons for creating, viewing, and deleting reminders.  
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
+---
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+### **Built With**  
+- **Python**: Core programming language.  
+- **python-telegram-bot**: Telegram API wrapper for bot functionality.  
+- **JSON**: Used for storing and retrieving reminder data.  
+- **Asyncio**: To handle asynchronous events efficiently.  
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
+---
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## **Getting Started**  
+Follow these steps to set up and run the bot locally.  
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+### **Prerequisites**  
+Ensure you have Python 3.10 or later installed.  
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+### **Installation**  
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+1. Clone the repository:  
+   ```sh  
+   git clone https://github.com/github_username/telegram-reminder-bot.git  
+   cd telegram-reminder-bot  
+   ```  
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+2. Create a virtual environment:  
+   ```sh  
+   python -m venv venv  
+   source venv/bin/activate  # On Windows: venv\Scripts\activate  
+   ```  
 
-Use the `BLANK_README.md` to get started.
+3. Install dependencies:  
+   ```sh  
+   pip install -r requirements.txt  
+   ```  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+4. Set your Telegram API Token:  
+   - Create a `.env` file in the root directory.  
+   - Add your token:  
+     ```env  
+     TELEGRAM_TOKEN=your_telegram_bot_token  
+     ```  
 
+5. Run the bot:  
+   ```sh  
+   python bot.py  
+   ```  
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
-### Built With
+---
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+## **Usage**  
+- **Add Reminder**: Create tasks and add them to your reminder list.  
+- **View Reminders**: See all your saved reminders in a list.  
+- **Delete Reminder**: Select and remove tasks using inline buttons.  
+- **Cancel Actions**: Exit any action with a "Cancel" button.  
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+_For detailed usage instructions, refer to the [Documentation](https://example.com)._  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
+---
 
+## **Roadmap**  
+- [ ] Add support for recurring reminders.  
+- [ ] Add multi-user support with database integration.  
+- [ ] Implement natural language processing for reminders.  
+- [ ] Push notification for reminders.  
 
-<!-- GETTING STARTED -->
-## Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+---
 
-### Prerequisites
+## **Contributing**  
+Contributions are welcome!  
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+1. Fork the repository.  
+2. Create a new branch:  
+   ```sh  
+   git checkout -b feature/YourFeature  
+   ```  
+3. Commit your changes:  
+   ```sh  
+   git commit -m "Add YourFeature"  
+   ```  
+4. Push to the branch:  
+   ```sh  
+   git push origin feature/YourFeature  
+   ```  
+5. Open a pull request.  
 
-### Installation
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+---
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+## **License**  
+Distributed under the MIT License. See `LICENSE` for more information.  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
+---
 
+## **Contact**  
+**Your Name**  
+[youremail@example.com](mailto:youremail@example.com)  
+[GitHub Profile](https://github.com/github_username)  
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+---
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+## **Acknowledgments**  
+- [python-telegram-bot Documentation](https://python-telegram-bot.readthedocs.io/)  
+- [Telegram Bot API](https://core.telegram.org/bots/api)  
+- [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
